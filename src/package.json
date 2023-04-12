@@ -1,0 +1,15 @@
+{
+  "name": "vue-press3",
+  "version": "1.0.0",
+  "description": "vue-press demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "will",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
