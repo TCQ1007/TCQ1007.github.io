@@ -1,3 +1,8 @@
+# 配置解析
+
+1、config.js
+
+```javascript
 module.exports = {
     title: 'TwillTech Doc',
     description: 'Will 的博客预览版（version:beta2）',
@@ -14,10 +19,7 @@ module.exports = {
             {text: 'Home', link: '/'},
             // 可指定链接跳转模式：默认target: '_blank'新窗口打开，_self当前窗口打开
             {text: 'Java', link: '/blog/Java/'},
-            {
-                text: 'VuePressDeskTop',
-                link: '/blog/vuepress/desktop/'
-            },
+            {text: 'CSDN', link: 'https://blog.csdn.net', target: '_blank'},
             {
                 text: '豆瓣',
                 link: 'https://movie.douban.com',
@@ -42,12 +44,11 @@ module.exports = {
             ],
             '/blog/get-started/': [
                 ''
-            ],
-            '/blog/vuepress/desktop/': [
-                ['', 'Vuepress 桌面端'],
-                'Config',
-                'ProjDir'
             ]
         }
     }
 }
+
+```
+
+2、公共资源目录<br />src/.vuepress/public/<br />3、文章目录<br />src/blog
